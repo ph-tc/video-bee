@@ -397,61 +397,6 @@
       }
     }
 
-    /*CATEGORIES*/
-
-    .categories {
-      display: table-row;
-      width: 100%;
-      font-size: 0;
-    }
-
-    .categories .select-wrapper {
-      display: inline-block;
-      width: 50%;
-      padding: 20px 10px 10px;
-      text-align: center;
-      vertical-align: middle;
-    }
-
-    .categories .select {
-      display: inline-block;
-      padding: 5px;
-      border: 1px solid #222;
-    }
-
-    .categories .select span {
-      position: relative;
-      padding-right: 25px;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 16px;
-      font-weight: 500;
-      color: #222;
-    }
-
-    .categories .select span::after {
-      content: '';
-      position: absolute;
-      right: 0;
-      top: 0;
-      -webkit-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-      transform: rotate(90deg);
-      display: block;
-      width: 19px;
-      height: 19px;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='306' height='306'%3E%3Cpath d='M94.35 0l-35.7 35.7L175.95 153 58.65 270.3l35.7 35.7 153-153z'/%3E%3C/svg%3E");
-      -webkit-background-size: 10px auto;
-      background-size: 10px auto;
-      background-position: center;
-      background-repeat: no-repeat;
-    }
-
-    @media screen and (max-height: 670px) {
-      .categories {
-        display: none;
-      }
-    }
-
     /*SUGGESTIONS*/
 
     .suggestions-wrapper {
@@ -486,13 +431,6 @@
       height: 50px;
       margin-bottom: 10px;
       background-color: #000;
-    }
-
-    .suggestions p {
-      width: 100%;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 14px;
-      font-weight: 500;
     }
 
     @media screen and (max-height: 520px) {
@@ -676,31 +614,15 @@
       </div>
       </div>
     </div>
-<!--    <div class="categories">-->
-<!--      <div class="select-wrapper">-->
-<!--        <div class="select">-->
-<!--          <span>Кулинария</span>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--      <div class="select-wrapper">-->
-<!--        <div class="select">-->
-<!--          <span>Торты</span>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
+
     <div class="suggestions-wrapper">
       <table class="suggestions">
-<!--        <tr>-->
-<!--          <th>Рекоммендуем:</th>-->
-<!--        </tr>-->
         <tr>
           <td>
             <div class="preview preview-1"></div>
-<!--            <p>Торт с цветами из мастики бисквит</p>-->
           </td>
           <td>
             <div class="preview preview-2"></div>
-<!--            <p>Шифоновый бисквит</p>-->
           </td>
         </tr>
       </table>
