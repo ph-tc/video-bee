@@ -281,7 +281,7 @@
       line-height: 12px;
     }
 
-    @media screen and (max-height: 325px) {
+    @media screen and (max-height: 380px) {
       .main .title {
         display: none;
       }
@@ -516,6 +516,23 @@
       text-align: center;
     }
 
+    .main .btn-wrapper .heading {
+      position: absolute;
+      bottom: 100%;
+      width: 100%;
+      margin-bottom: 70px;
+      padding: 0 10px;
+    }
+
+    .main .btn-wrapper .heading p {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 40px;
+      font-weight: bold;
+      line-height: 30px;
+      color: #4286f4;
+      text-shadow: 0 0 30px #fff;
+    }
+
     .main .btn {
       position: relative;
       display: inline-block;
@@ -586,6 +603,18 @@
         -webkit-transform: translate(0, -27px);
         -ms-transform: translate(0, -27px);
         transform: translate(0, -27px);
+      }
+    }
+
+    @media screen and (max-height: 520px) {
+      .main .btn-wrapper .heading {
+        margin-bottom: 35px;
+      }
+    }
+
+    @media screen and (max-height: 400px) {
+      .main .btn-wrapper .heading {
+        display: none;
       }
     }
 
@@ -685,6 +714,9 @@
     </div>
   </div>
   <div class="btn-wrapper" id="btn-wrapper">
+    <div class="heading">
+      <p>Приятного просмотра</p>
+    </div>
     <a class="btn" id="btn" href="#">
         <span>Смотреть</span>
     </a>
